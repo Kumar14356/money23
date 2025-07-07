@@ -26,9 +26,6 @@ const FundingConfidence = () => {
    
         <div className="relative w-96 h-96 min-w-[400px]">
           
-  
-          <div className="absolute left-1/2 transform -translate-x-0.5 top-0 bottom-0 w-0.5 border-l-2 border-dashed border-red-400 z-0"></div>
-      
           <div className="w-full max-w-[400px] lg:px-0 px-5"> {/* Adjust max width as needed */}
   <img src="/images/Group 299.png" alt="" className="w-full h-auto" />
 </div>
