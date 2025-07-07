@@ -1,0 +1,42 @@
+@font-face {
+    font-family:Inter;
+    src: url("../src/assets/fonts/Inter_18pt-Black.ttf");
+    font-family: Robot;
+    src:url("../src/assets/fonts/Roboto-Black.ttf");
+    
+}
+
+@import "tailwindcss";
+
+@theme{
+    --font-Inter:"Inter",sans-serif;
+    --font-Roboto:"Roboto",sans-serif;
+}
+
+@keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-scroll {
+    display: flex;
+    animation: scroll 20s linear infinite;
+  }
+  
